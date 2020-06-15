@@ -72,15 +72,16 @@ a:hover {
 #header #menu > li {
   display: inline-block;
 }
-#header #menu > li > a {
+#header #menu > li > a, #header #menu > li > p {
   display: block;
   line-height: 90px;
   letter-spacing: 1px;
   color: white;
   padding: 0px 10px 0px 10px;
+  cursor: pointer;
   transition: all 300ms;
 }
-#header #menu > li > a:hover {
+#header #menu > li > a:hover, #header #menu > li > p:hover {
   color: #16E6C0;
 }
 #header #menu > li > ul {
